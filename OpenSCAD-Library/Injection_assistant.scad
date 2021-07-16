@@ -238,7 +238,13 @@ translate([16,75-8,10]){
 }
 translate([75-12.5,12,40]){
     rotate([-90,0,0]){
-        cam_mount_v2();
+        #cam_mount_v2();
+    }
+}
+
+translate([12,75+12.5,36]){
+    rotate([-90,0,-90]){
+        #cam_mount_v2();
     }
 }
 
