@@ -155,7 +155,7 @@ module cam_mount_v2(){
             pin_arm();
         }
     }
-    translate([15.6,14,-6]){
+    translate([15.6,14,-5.9]){
         rotate([0,-90,0]){
             pin_arm();
         }
