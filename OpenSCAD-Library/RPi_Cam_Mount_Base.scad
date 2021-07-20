@@ -28,7 +28,7 @@ module pin_arm(){
         }
     }   
 }
-translate([2.8,8,9.9]){
+translate([2.6,8,9.9]){
     rotate([0,90,0]){
         pin_arm(); //left 0.2mm extra
     }
@@ -38,7 +38,7 @@ translate([7,8,9.9]){
         pin_arm(); //middle
     }
 }
-translate([11.2,8,9.9]){
+translate([11.4,8,9.9]){
     rotate([0,90,0]){
         pin_arm(); //right 0.2 mm extra
     }
